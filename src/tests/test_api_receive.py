@@ -4,7 +4,6 @@ from src.storage.infrastructure.persistense import DomainEventModel
 
 
 def test_api_receive(client, in_memory_session):
-    print('lala', datetime.utcnow().isoformat())
     payload = {
         "supplier_id": "supplier_1",
         "date": datetime.utcnow().isoformat(),
