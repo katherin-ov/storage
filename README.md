@@ -1,5 +1,4 @@
-## Задание
-### Приложение для управления складом
+## Приложение для управления складом
 # Setup
 
 This file provides some instructions on how to do local setup and run backend
@@ -33,3 +32,4 @@ Run program by command:
  ```shell
 uvicorn src.storage.entrypoints.app:app --reload 
  ```
+
