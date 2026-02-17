@@ -31,5 +31,5 @@ But you welcome to use any tool you comfortable with (e.g. [pyenv](https://githu
 
 Run program by command:
  ```shell
- python -m src.scoring_api.api   
+uvicorn src.storage.entrypoints.app:app --reload 
  ```
